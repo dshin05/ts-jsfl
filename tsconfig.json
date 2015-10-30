@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "Definitions/gulp/gulp.d.ts",
+        "Definitions/jsfl/jsfl.d.ts",
+        "Definitions/node/node.d.ts",
+        "Definitions/orchestrator/orchestrator.d.ts",
+        "Definitions/q/Q.d.ts",
+        "Definitions/tsd.d.ts",
+        "Modules/DOMInfo.ts"
+    ],
+    "exclude": []
+}
