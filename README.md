@@ -8,4 +8,4 @@ npm install
 // If you don't have tsd install it globally first.
 // npm install -g tsd
 tsd install
-``
+```
